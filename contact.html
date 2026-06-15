@@ -1,0 +1,391 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Contact Kurade Digital Technologies - Get in touch with our team for inquiries, support, and services">
+    <meta name="keywords" content="contact, inquiry, support, phone, email, location">
+    <meta property="og:title" content="Contact Us - Kurade Digital Technologies">
+    <meta property="og:description" content="Reach out to our team for any inquiries about our services and products">
+    <meta property="og:type" content="website">
+    
+    <title>Contact Us - Kurade Digital Technologies</title>
+    
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<!-- Loading Animation -->
+<div class="loading">
+    <div class="loading-spinner"></div>
+</div>
+<div class="loading-overlay"></div>
+
+<!-- Navigation -->
+<nav>
+    <div class="navbar-container">
+        <div class="logo">
+            <img src="assets/Logo.png" alt="Kurade Digital Logo" class="logo-img">
+            <span class="logo-text">Kurade Digital</span>
+        </div>
+        <ul class="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="services.html">Services</a></li>
+            <li><a href="products.html">Products</a></li>
+            <li><a href="contact.html" class="active">Contact</a></li>
+        </ul>
+        <button class="nav-toggle" aria-label="Toggle Navigation">
+            <span></span>
+            <span></span>
+            <span></span>
+        </button>
+    </div>
+</nav>
+
+<!-- Hero Section -->
+<section class="hero" style="min-height: 50vh; padding: 100px 20px 40px;">
+    <div class="hero-content">
+        <h1 style="font-size: 3rem;">Contact Us</h1>
+        <p class="subtitle">Get in touch with our team. We'd love to hear from you.</p>
+    </div>
+</section>
+
+<!-- Contact Information -->
+<section class="services">
+    <div class="section-title">
+        <h2>Get In Touch</h2>
+        <div class="divider"></div>
+    </div>
+    <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 2rem; margin-bottom: 3rem;">
+        <div class="service-card scroll-reveal" style="text-align: center;">
+            <div class="service-icon" style="margin: 0 auto 1.5rem;">📞</div>
+            <h3>Phone</h3>
+            <p style="margin-bottom: 1rem;">Call us during business hours</p>
+            <a href="tel:+917378523732" style="font-size: 1.2rem; font-weight: bold; color: var(--accent-color);">+91 7378523732</a>
+        </div>
+        <div class="service-card scroll-reveal" style="text-align: center;">
+            <div class="service-icon" style="margin: 0 auto 1.5rem;">✉️</div>
+            <h3>Email</h3>
+            <p style="margin-bottom: 1rem;">Send us an email anytime</p>
+            <a href="mailto:pratikkurade2810@gmail.com" style="font-size: 1.2rem; font-weight: bold; color: var(--accent-color);">pratikkurade2810@gmail.com</a>
+        </div>
+        <div class="service-card scroll-reveal" style="text-align: center;">
+            <div class="service-icon" style="margin: 0 auto 1.5rem;">📍</div>
+            <h3>Location</h3>
+            <p style="margin-bottom: 1rem;">Visit us at our office</p>
+            <p style="font-weight: bold; color: var(--text-primary); margin: 0;">Sangli, Kolhapur,<br>Maharashtra, India</p>
+        </div>
+    </div>
+</section>
+
+<!-- Contact Form & Map -->
+<section style="padding: 60px 20px;">
+    <div class="container">
+        <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 3rem; margin-bottom: 3rem; align-items: start;">
+            <!-- Contact Form -->
+            <div class="scroll-reveal">
+                <h2 style="margin-bottom: 1.5rem;">Send us a Message</h2>
+                <form id="contactForm" class="contact-form" style="max-width: 100%; margin: 0;">
+                    <div class="form-group">
+                        <label for="name">Full Name</label>
+                        <input type="text" id="name" name="name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email Address</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="phone">Phone Number</label>
+                        <input type="tel" id="phone" name="phone" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="subject">Subject</label>
+                        <input type="text" id="subject" name="subject" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Message</label>
+                        <textarea id="message" name="message" required></textarea>
+                    </div>
+                    <div class="form-message"></div>
+                    <button type="submit" class="btn btn-primary btn-lg" style="width: 100%;">
+                        <i class="fas fa-paper-plane"></i> Send Message
+                    </button>
+                </form>
+            </div>
+
+            <!-- Info Box -->
+            <div class="scroll-reveal">
+                <div style="background: linear-gradient(135deg, rgba(37, 99, 235, 0.1), rgba(59, 130, 246, 0.1)); border: 1px solid var(--border-color); border-radius: 12px; padding: 2rem;">
+                    <h3 style="margin-bottom: 1.5rem;">Why Contact Us?</h3>
+                    <ul style="list-style: none;">
+                        <li style="margin-bottom: 1rem; display: flex; gap: 1rem; align-items: flex-start;">
+                            <div style="width: 40px; height: 40px; background: var(--gradient-primary); border-radius: 8px; display: flex; align-items: center; justify-content: center; color: white; flex-shrink: 0;">✓</div>
+                            <div>
+                                <strong>Product Inquiries</strong>
+                                <p style="color: var(--text-secondary); margin: 0; font-size: 0.9rem;">Learn more about our solutions</p>
+                            </div>
+                        </li>
+                        <li style="margin-bottom: 1rem; display: flex; gap: 1rem; align-items: flex-start;">
+                            <div style="width: 40px; height: 40px; background: var(--gradient-primary); border-radius: 8px; display: flex; align-items: center; justify-content: center; color: white; flex-shrink: 0;">✓</div>
+                            <div>
+                                <strong>Schedule Demo</strong>
+                                <p style="color: var(--text-secondary); margin: 0; font-size: 0.9rem;">Book a personalized demo</p>
+                            </div>
+                        </li>
+                        <li style="margin-bottom: 1rem; display: flex; gap: 1rem; align-items: flex-start;">
+                            <div style="width: 40px; height: 40px; background: var(--gradient-primary); border-radius: 8px; display: flex; align-items: center; justify-content: center; color: white; flex-shrink: 0;">✓</div>
+                            <div>
+                                <strong>Technical Support</strong>
+                                <p style="color: var(--text-secondary); margin: 0; font-size: 0.9rem;">Get help with implementation</p>
+                            </div>
+                        </li>
+                        <li style="margin-bottom: 1rem; display: flex; gap: 1rem; align-items: flex-start;">
+                            <div style="width: 40px; height: 40px; background: var(--gradient-primary); border-radius: 8px; display: flex; align-items: center; justify-content: center; color: white; flex-shrink: 0;">✓</div>
+                            <div>
+                                <strong>Custom Solutions</strong>
+                                <p style="color: var(--text-secondary); margin: 0; font-size: 0.9rem;">Discuss your requirements</p>
+                            </div>
+                        </li>
+                        <li style="display: flex; gap: 1rem; align-items: flex-start;">
+                            <div style="width: 40px; height: 40px; background: var(--gradient-primary); border-radius: 8px; display: flex; align-items: center; justify-content: center; color: white; flex-shrink: 0;">✓</div>
+                            <div>
+                                <strong>Partnership Opportunities</strong>
+                                <p style="color: var(--text-secondary); margin: 0; font-size: 0.9rem;">Explore collaboration options</p>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <!-- Map Placeholder -->
+        <div class="scroll-reveal" style="background: linear-gradient(135deg, rgba(37, 99, 235, 0.1), rgba(59, 130, 246, 0.1)); border: 1px solid var(--border-color); border-radius: 12px; height: 400px; display: flex; align-items: center; justify-content: center; margin-top: 3rem;">
+            <div style="text-align: center;">
+                <div style="font-size: 3rem; margin-bottom: 1rem;">🗺️</div>
+                <h3>Our Location</h3>
+                <p style="color: var(--text-secondary); margin-bottom: 1rem;">Sangli, Kolhapur, Maharashtra, India</p>
+                <p style="color: var(--text-secondary); font-size: 0.9rem;">
+                    [Google Maps would be embedded here]<br>
+                    <a href="https://maps.google.com/?q=Sangli,Kolhapur,Maharashtra" target="_blank" class="btn btn-primary btn-sm" style="margin-top: 1rem;">
+                        View on Maps
+                    </a>
+                </p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Alternative Contact Methods -->
+<section style="padding: 60px 20px; background: rgba(37, 99, 235, 0.05);">
+    <div class="container">
+        <div class="section-title">
+            <h2>Other Ways to Connect</h2>
+            <div class="divider"></div>
+        </div>
+        <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 2rem; margin-top: 2rem;">
+            <div class="scroll-reveal" style="background: var(--card-bg); border: 1px solid var(--border-color); border-radius: 12px; padding: 2rem; text-align: center;">
+                <div style="font-size: 2.5rem; margin-bottom: 1rem;">💬</div>
+                <h4>WhatsApp</h4>
+                <p style="color: var(--text-secondary); margin-bottom: 1rem;">Quick response via WhatsApp</p>
+                <a href="https://wa.me/917378523732" class="btn btn-success btn-sm" target="_blank">
+                    <i class="fab fa-whatsapp"></i> Chat Now
+                </a>
+            </div>
+
+            <div class="scroll-reveal" style="background: var(--card-bg); border: 1px solid var(--border-color); border-radius: 12px; padding: 2rem; text-align: center;">
+                <div style="font-size: 2.5rem; margin-bottom: 1rem;">📋</div>
+                <h4>Support Ticket</h4>
+                <p style="color: var(--text-secondary); margin-bottom: 1rem;">Track your support requests</p>
+                <a href="#" class="btn btn-primary btn-sm">
+                    <i class="fas fa-ticket"></i> Create Ticket
+                </a>
+            </div>
+
+            <div class="scroll-reveal" style="background: var(--card-bg); border: 1px solid var(--border-color); border-radius: 12px; padding: 2rem; text-align: center;">
+                <div style="font-size: 2.5rem; margin-bottom: 1rem;">💼</div>
+                <h4>LinkedIn</h4>
+                <p style="color: var(--text-secondary); margin-bottom: 1rem;">Connect with us on LinkedIn</p>
+                <a href="#" class="btn btn-info btn-sm" target="_blank">
+                    <i class="fab fa-linkedin"></i> Follow Us
+                </a>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Response Time -->
+<section class="services" style="background: rgba(37, 99, 235, 0.05);">
+    <div class="section-title">
+        <h2>Our Response Times</h2>
+        <div class="divider"></div>
+    </div>
+    <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 2rem;">
+        <div class="service-card scroll-reveal" style="text-align: center;">
+            <div class="service-icon" style="margin: 0 auto 1.5rem;">⚡</div>
+            <h3>WhatsApp</h3>
+            <p>Typically respond within</p>
+            <div style="font-size: 2rem; font-weight: bold; color: var(--accent-color);">15 mins</div>
+        </div>
+        <div class="service-card scroll-reveal" style="text-align: center;">
+            <div class="service-icon" style="margin: 0 auto 1.5rem;">📧</div>
+            <h3>Email</h3>
+            <p>Typically respond within</p>
+            <div style="font-size: 2rem; font-weight: bold; color: var(--accent-color);">2 hours</div>
+        </div>
+        <div class="service-card scroll-reveal" style="text-align: center;">
+            <div class="service-icon" style="margin: 0 auto 1.5rem;">📞</div>
+            <h3>Phone</h3>
+            <p>Available during business hours</p>
+            <div style="font-size: 2rem; font-weight: bold; color: var(--accent-color);">9 AM - 6 PM</div>
+        </div>
+    </div>
+</section>
+
+<!-- Business Hours -->
+<section style="padding: 60px 20px;">
+    <div class="container">
+        <div class="section-title">
+            <h2>Business Hours</h2>
+            <div class="divider"></div>
+        </div>
+        <div style="max-width: 600px; margin: 0 auto; background: var(--card-bg); border: 1px solid var(--border-color); border-radius: 12px; padding: 2rem;">
+            <div style="display: flex; justify-content: space-between; padding: 1rem 0; border-bottom: 1px solid var(--border-color);">
+                <strong>Monday - Friday</strong>
+                <span style="color: var(--text-secondary);">9:00 AM - 6:00 PM IST</span>
+            </div>
+            <div style="display: flex; justify-content: space-between; padding: 1rem 0; border-bottom: 1px solid var(--border-color);">
+                <strong>Saturday</strong>
+                <span style="color: var(--text-secondary);">10:00 AM - 4:00 PM IST</span>
+            </div>
+            <div style="display: flex; justify-content: space-between; padding: 1rem 0;">
+                <strong>Sunday</strong>
+                <span style="color: var(--text-secondary);">Closed</span>
+            </div>
+            <p style="color: var(--text-secondary); margin-top: 1.5rem; margin-bottom: 0;">
+                For urgent support, please call our emergency hotline or send an email. We'll prioritize your request.
+            </p>
+        </div>
+    </div>
+</section>
+
+<!-- FAQ Quick Links -->
+<section style="padding: 60px 20px; background: rgba(37, 99, 235, 0.05);">
+    <div class="container">
+        <div class="section-title">
+            <h2>Frequently Asked Questions</h2>
+            <div class="divider"></div>
+        </div>
+        <div style="max-width: 800px; margin: 0 auto;">
+            <div class="scroll-reveal" style="background: var(--card-bg); border: 1px solid var(--border-color); border-radius: 10px; padding: 1.5rem; margin-bottom: 1rem;">
+                <h4 style="margin-bottom: 0.5rem;">💡 How long is the implementation process?</h4>
+                <p style="color: var(--text-secondary); margin-bottom: 0;">Our typical implementation takes 6-8 weeks depending on the product and your specific requirements.</p>
+            </div>
+            <div class="scroll-reveal" style="background: var(--card-bg); border: 1px solid var(--border-color); border-radius: 10px; padding: 1.5rem; margin-bottom: 1rem;">
+                <h4 style="margin-bottom: 0.5rem;">🔒 Is your software secure?</h4>
+                <p style="color: var(--text-secondary); margin-bottom: 0;">Yes, we employ enterprise-grade security measures including data encryption, regular backups, and security audits.</p>
+            </div>
+            <div class="scroll-reveal" style="background: var(--card-bg); border: 1px solid var(--border-color); border-radius: 10px; padding: 1.5rem; margin-bottom: 1rem;">
+                <h4 style="margin-bottom: 0.5rem;">📱 Do your products have mobile apps?</h4>
+                <p style="color: var(--text-secondary); margin-bottom: 0;">Yes, all our products come with mobile apps for iOS and Android for convenient access on the go.</p>
+            </div>
+            <div class="scroll-reveal" style="background: var(--card-bg); border: 1px solid var(--border-color); border-radius: 10px; padding: 1.5rem;">
+                <h4 style="margin-bottom: 0.5rem;">🔄 Can I integrate with other systems?</h4>
+                <p style="color: var(--text-secondary); margin-bottom: 0;">Absolutely! Our products have well-documented APIs for easy integration with third-party systems.</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Call To Action -->
+<section class="cta scroll-reveal">
+    <h2>Still Have Questions?</h2>
+    <p>Our team is ready to help you find the perfect solution</p>
+    <a href="#contactForm" class="btn btn-outline btn-lg" onclick="document.querySelector('#name').focus();">
+        <i class="fas fa-envelope"></i> Send Message
+    </a>
+</section>
+
+<!-- Footer -->
+<footer>
+    <div class="footer-content">
+        <div class="footer-section">
+            <h4>Kurade Digital Technologies</h4>
+            <p>Innovative software solutions for modern businesses. We transform ideas into reality.</p>
+            <div style="display: flex; gap: 1rem; margin-top: 1rem;">
+                <a href="#" title="Facebook" style="width: 36px; height: 36px; background: var(--accent-color); border-radius: 50%; display: flex; align-items: center; justify-content: center; color: white;">
+                    <i class="fab fa-facebook-f"></i>
+                </a>
+                <a href="#" title="LinkedIn" style="width: 36px; height: 36px; background: var(--accent-color); border-radius: 50%; display: flex; align-items: center; justify-content: center; color: white;">
+                    <i class="fab fa-linkedin-in"></i>
+                </a>
+                <a href="#" title="Twitter" style="width: 36px; height: 36px; background: var(--accent-color); border-radius: 50%; display: flex; align-items: center; justify-content: center; color: white;">
+                    <i class="fab fa-twitter"></i>
+                </a>
+                <a href="#" title="Instagram" style="width: 36px; height: 36px; background: var(--accent-color); border-radius: 50%; display: flex; align-items: center; justify-content: center; color: white;">
+                    <i class="fab fa-instagram"></i>
+                </a>
+            </div>
+        </div>
+        <div class="footer-section">
+            <h4>Quick Links</h4>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="products.html">Products</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </div>
+        <div class="footer-section">
+            <h4>Support</h4>
+            <ul>
+                <li><a href="#faq">FAQ</a></li>
+                <li><a href="#">Documentation</a></li>
+                <li><a href="#">Help Center</a></li>
+                <li><a href="#">Community</a></li>
+                <li><a href="#">Blog</a></li>
+            </ul>
+        </div>
+        <div class="footer-section">
+            <h4>Contact Info</h4>
+            <p>
+                <i class="fas fa-phone"></i> <strong>Phone:</strong><br>
+                +91 7378523732
+            </p>
+            <p>
+                <i class="fas fa-map-marker-alt"></i> <strong>Location:</strong><br>
+                Sangli, Kolhapur,<br>
+                Maharashtra, India
+            </p>
+            <p>
+                <i class="fas fa-envelope"></i> <strong>Email:</strong><br>
+                <a href="mailto:pratikkurade2810@gmail.com">pratikkurade2810@gmail.com</a>
+            </p>
+        </div>
+    </div>
+    <div class="footer-divider">
+        <p>&copy; 2026 Kurade Digital Technologies. All rights reserved.</p>
+        <div>
+            <a href="#" style="margin: 0 1rem; color: var(--text-secondary);">Privacy Policy</a>
+            <a href="#" style="margin: 0 1rem; color: var(--text-secondary);">Terms of Service</a>
+        </div>
+    </div>
+</footer>
+
+<!-- WhatsApp Floating Button -->
+<div class="whatsapp-float" title="Chat on WhatsApp">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+        <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.67-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.076 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421-7.403h-.004a6.963 6.963 0 00-6.869 6.875 6.961 6.961 0 006.875 6.868h.004c1.902 0 3.718-.55 5.258-1.594l.036-.023 3.861.586-1.514-3.738.024-.038a6.963 6.963 0 001.594-5.235c0-3.792-3.083-6.875-6.875-6.875m5.423 16.309l-1.925-.29-.068.043a9.958 9.958 0 01-5.359 1.599c-5.487 0-9.975-4.488-9.975-9.975 0-5.487 4.488-9.975 9.975-9.975 5.487 0 9.975 4.488 9.975 9.975 0 1.862-.52 3.66-1.511 5.169l.042.068.289 1.925 1.925-.288-.288-1.925z"/>
+    </svg>
+</div>
+
+<!-- Bootstrap JS -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/js/bootstrap.bundle.min.js"></script>
+<!-- Main JS -->
+<script src="js/script.js"></script>
+
+</body>
+</html>
